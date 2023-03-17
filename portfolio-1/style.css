@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+}
+
+.home-page{
+    padding: 20px 140px ;
+}
+
+/* header section  */
+header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo{
+    color: #0d6efd;
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul li{
+    list-style-type: none;
+}
+.nav ul li a{
+    text-decoration: none;
+}
+
+.header-nav ul li a{
+    margin: 0 20px;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.header-nav ul li a.active{
+    color: #0d6efd;
+}
+.btn button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0d6efd;
+}
+.btn button:hover{
+    background-color: #3e86f4;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}
+
+/* hero section  */
+.hero-section{
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-section .hero-content .content-text h1{
+    font-size: 3rem;
+}
+.hero-section .hero-content .content-text span{
+    color: #0d6efd;
+}
+
+.contact-btn {
+    margin-top: 20px;
+}
+
+.socail-icon-nav li{
+    color: #0d6efd;
+    font-size: 2.5rem;
+    margin: 0 20px;
+}
