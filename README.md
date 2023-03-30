@@ -5,7 +5,8 @@ This is a portfolio landing page built using HTML, CSS, and JavaScript. The land
 Here is a demo of the landing page: https://github.com/Dinil-Thilakarathne/portfolio/tree/main/portfolio-2
 
 # Watch full video on YouTube :
-Watch now >> https://www.youtube.com/watch?v=zB41Zw9jUdI
+* Portfolio landing page with dark mode >>> https://www.youtube.com/watch?v=zB41Zw9jUdI
+* Portfolio landing page using HTML & CSS >>> https://www.youtube.com/watch?v=Cbu5PeIekIs
 
 # Technologies Used
 * HTML
