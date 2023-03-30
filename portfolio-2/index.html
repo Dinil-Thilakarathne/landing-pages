@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/46b7ceee20.js" crossorigin="anonymous"></script>
+
+    <!-- custome css  -->
+    <link rel="stylesheet" href="style.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <div class="home">
+        <header>
+            <div class="header-logo">
+                <h1>logo</h1>
+            </div>
+            <div class="header-nav">
+                <ul class="nav">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header-btn">
+                <button class="btn">Hire me!</button>
+                <div class="mode-change">
+                    <i class="fa-solid fa-moon" id="mode-change"></i>
+                </div>
+            </div>
+        </header>
+
+        <!-- hero section  -->
+        <div class="hero-section">
+            <div class="social-icons">
+                <ul class="nav social-icon-list">
+                    <li><a href="#"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-square-behance"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            
+            <!-- hero content  -->
+            <div class="hero-content">
+                <div class="content-text">
+                    <h1>Hi,</h1>
+                    <h1>I'm <span>Lorem, ipsum.</span></h1>
+                    <h1>Web <span>Designer</span></h1>
+                </div>
+                <div class="hero-btn">
+                    <button class="btn">Contact</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="./img/girl-photo.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript code  -->
+    <script>
+        var icon =document.getElementById("mode-change");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(icon.className=="fa-solid fa-moon"){
+                icon.className="fa-solid fa-sun"; 
+            }else{
+                icon.className="fa-solid fa-moon"; 
+            }
+        }
+    </script>
+    
+</body>
+</html>
