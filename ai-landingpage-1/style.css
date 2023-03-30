@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body Styles */
+  
+  body {
+    font-family: "Poppins";
+    background-color: #C2C0FF;
+    color: #09093D;
+    padding: 20px 140px;
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: slideDown 0.5s ease forwards;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  nav ul li {
+    margin-right: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #09093D;
+    font-size: 1.5rem;
+  }
+  
+  .header-buttons button {
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid #09093D;
+    border-radius: 25px;
+    color: #09093D;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .header-buttons button:hover {
+    background-color: #09093D;
+    color: #fff;
+  }
+  .header-nav{
+    display: block;
+  }
+  
+
+  /* Hero Section Styles */
+  
+  .hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 85vh;
+    width: 100%;
+  }
+  
+  .hero-image {
+    height: 100%;
+    width: 50%;
+    animation: slideIn 1.5s ease forwards;
+  
+  }
+  .hero-image img{
+    width: 100%;
+    margin-top: 30%;
+  }
+  
+  .hero-content {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .buy-now {
+    background-color: transparent;
+    border: 2px solid #09093D;
+    border-radius: 25px;
+    color: #09093D;
+    padding: 10px 50px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .buy-now:hover {
+    background-color: #09093D;
+    color: #fff;
+  }
+  
+  .social-media-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin-top: 30px;
+    animation: slideLeft 0.5s ease forwards;
+  }
+  
+  .social-media-icons a {
+    text-decoration: none;
+    color: #09093D;
+    font-size: 1.5rem;
+  }
+  
+  /* Social Bar Styles */
+  
+  .social-bar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    animation: slideLeft 1s ease forwards;
+  }
+  
+.social-bar a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #09093D;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+  
+.social-bar a:hover {
+    transform: scale(1.2);
+}
+
+/* menu button  */
+.menu-btn{
+    display: none;
+    font-size: 2rem;
+    z-index: 3;
+    position: relative;
+    left: 20px;
+}
+
+
+/* Media Query Styles */
+@media (max-width:1000px){
+    body{
+        padding: 20px 40px;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-image{
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+  
+    nav.header-nav  {
+      width: 100%;
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 0;
+
+    }
+    .menu-btn {
+        display: block;
+    }
+    nav ul{
+        height: calc(100vh - 60px);
+        width: calc(100% - 40px);
+        background-color: #C2C0FF;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border: 2px solid #09093D;
+        border-radius: 1rem;
+        animation: slideIn 0.5s ease forwards;
+        z-index: 2;
+
+    }
+    nav ul li:hover{
+        margin: 0;
+        width: calc(100% - 50px);
+        background-color: #09093D;
+
+    }
+    nav ul li:hover a{
+        color: #fff;
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .hero-image {
+      height: 50%;
+      width: 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: -2;
+      margin: 0;
+    }
+    .hero-content {
+      margin-top: 20px;
+      height: 50%;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+  
+ /* Keyframes Styles */
+  
+@keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      scale: 0.5;
+    }
+    
+    to {
+      transform: translateX(0%);
+      scale: 1;
+    }
+  }
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%);
+
+    }
+    
+    to {
+      transform: translateY(0%);
+
+    }
+  }
+@keyframes slideLeft {
+    from {
+      transform: translateX(100%);
+
+    }
+    
+    to {
+      transform: translateX(0%);
+
+    }
+  }

@@ -1,0 +1,11 @@
+00.00 Demo
+00.52 prompt
+01.02 genarate code 
+02.47 genarated design
+02.58 customize code
+03.17 hero image 
+04.16 section animations
+06.05 reponsive design 
+06.53 responsive side bar
+10.28 responsive menu button
+11.00 js code
