@@ -1,5 +1,7 @@
 const tabs = document.querySelectorAll('.header-nav-tab');
 const highlight = document.querySelector('.highlight');
+const mobileNavBarIcon = document.getElementById("mobile-nav-bar-icon");
+const headerNavList = document.getElementById("header-nav-list");
 const firstTab = tabs[0];
 var icon =document.getElementById("mode-change");
 
@@ -40,4 +42,15 @@ icon.onclick = function(){
     }else{
         icon.className="fa-solid fa-moon"; 
     }
+}
+
+mobileNavBarIcon.onclick = function() {
+  if(mobileNavBarIcon.className=="fa-solid fa-bars"){
+    mobileNavBarIcon.className="fa-solid fa-close";
+    headerNavList.style.transform = "translateX(0)";
+  }else{
+    mobileNavBarIcon.className="fa-solid fa-bars";
+    headerNavList.style.transform = "translateX(200%)";
+  }
+
 }

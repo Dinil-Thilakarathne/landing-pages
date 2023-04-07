@@ -133,7 +133,9 @@ body{
     cursor: pointer;
     animation: header-nav 1s ease forwards;
 }
-
+.mobile-nav-bar{
+    display: none;
+}
 
 /* hero section  */
 .hero-section{
@@ -244,7 +246,28 @@ body{
         padding: 20px;
     }
     .header-section .header-nav{
+        width: 25%;
+    }
+    .header-nav .header-nav-list{
+        height: 40%;
+        width: 80%;
+        border-radius: 20px;
+        background-color: var(--primaryColor);
+        box-shadow: 3px 3px 10px var(--secondaryColor);
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        right: 30px;
+        z-index: 999;
+        transition: all 0.5s ease;
+        transform: translateX(200%) scale(0);
+    }
+    .header-nav span{
         display: none;
+    }
+    .mobile-nav-bar{
+        display: block;
+        z-index: 9999;
     }
     .hero-section .hero-content{
         height: 100%;
