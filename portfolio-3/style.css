@@ -274,6 +274,7 @@ body{
     .header-nav .header-nav-list{
         display: none;
         overflow: hidden;
+        content: " ";
         height: 40%;
         width: 80%;
         border-radius: 20px;
