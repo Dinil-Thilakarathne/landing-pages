@@ -240,6 +240,28 @@ body{
     --fs-hero-content-bnt:1rem;
     --fw-hero-content-bnt:500;
     --fs-icon:2rem;
+    }.dark-theme{
+        /* colors  */
+        --primaryColor:#000;
+        --secondaryColor:#fff;
+        --navBorderColor:#fff;
+    
+        /* fonts  */
+        --mainFont:"poppins";
+        --secondaryFont:"Permanent Marker";
+        --mainTxtColor:#fff;
+        --bntTxtColor:#fff;
+        --bntHoverTxtColor:#000;
+        --fs-header:1.5rem;
+        --fw-header:700;
+        --fw-header-nav:500;
+        --fs-hero-content-header:2.5rem;
+        --fw-hero-content-header:700;
+        --fs-hero-content-body:0.9rem;
+        --fw-hero-content-body:400;
+        --fs-hero-content-bnt:1rem;
+        --fw-hero-content-bnt:500;
+        --fs-icon:2rem;
     }
     .home-page{
         height: 100vh;
