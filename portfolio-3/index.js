@@ -47,8 +47,10 @@ icon.onclick = function(){
 mobileNavBarIcon.onclick = function() {
   if(mobileNavBarIcon.className=="fa-solid fa-bars"){
     mobileNavBarIcon.className="fa-solid fa-close";
+    headerNavList.style.display = "flex";
     headerNavList.style.transform = "translateX(0)";
   }else{
+    headerNavList.style.display = "none";
     mobileNavBarIcon.className="fa-solid fa-bars";
     headerNavList.style.transform = "translateX(200%)";
   }

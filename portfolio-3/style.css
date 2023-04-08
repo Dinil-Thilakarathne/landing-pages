@@ -266,11 +266,14 @@ body{
     .home-page{
         height: 100vh;
         padding: 20px;
+        overflow: hidden;
     }
     .header-section .header-nav{
         width: 25%;
     }
     .header-nav .header-nav-list{
+        display: none;
+        overflow: hidden;
         height: 40%;
         width: 80%;
         border-radius: 20px;
