@@ -1,20 +1,21 @@
-# Portfolio Landing Page 
-These are portfolio landing page built using HTML, CSS, and JavaScript. 
+# Portfolio Landing Page with Dark Mode
+This is a portfolio landing page built using HTML, CSS, and JavaScript. The landing page features a dark mode toggle button and showcases my skills in web development.
+
+# Demo
+Here is a demo of the landing page: https://dinil-thilakarathne.github.io/landing-pages/portfolio-3/
+
+# Screenshots 
+## Desktop view
+![](project-ss/desktop-view.png)
+
+## Mobile view
+![](project-ss/mobile-view.png)
 
 
-# Project 
-## Responsive landing page with Dark Theme 
-![](portfolio-2/project-ss/desktop-view.png)
-
-## Portfolio-3 
-![](portfolio-3/project-ss/desktop-view.png)
-
-## Portfolio-2
-![](/portfolio%20landing%20page%20with%20dark%20mode/project-ss/desktop-view.png)
-
-
-# Watch full videos on YouTube :
+# Watch full video on YouTube :
 * Responsive landing page with Dark Theme:https://www.youtube.com/watch?v=4oADFZ589Xs
+
+# Watch other video on YouTube :
 * Portfolio landing page with dark mode >>> https://www.youtube.com/watch?v=zB41Zw9jUdI
 * Portfolio landing page using HTML & CSS >>> https://www.youtube.com/watch?v=Cbu5PeIekIs
 
@@ -24,7 +25,9 @@ These are portfolio landing page built using HTML, CSS, and JavaScript.
 * JavaScript
 
 
-
+# Getting Started
+Clone the repository: git clone https://github.com/Dinil-Thilakarathne/portfolio.git
+Open the index.html file in your preferred web browser.
 
 # Features
 * Dark mode toggle button
