@@ -4,13 +4,14 @@ These are portfolio landing page built using HTML, CSS, and JavaScript.
 
 # Project 
 ## Responsive landing page with Dark Theme 
+![](/portfolio%20landing%20page%20with%20dark%20mode/project-ss/desktop-view.png)
 ![](portfolio-2/project-ss/desktop-view.png)
 
 ## Portfolio-3 
 ![](portfolio-3/project-ss/desktop-view.png)
 
 ## Portfolio-2
-![](/portfolio%20landing%20page%20with%20dark%20mode/project-ss/desktop-view.png)
+![](portfolio-2/project-ss/desktop-view.png)
 
 
 # Watch full videos on YouTube :
