@@ -7,7 +7,7 @@ These are portfolio landing page built using HTML, CSS, and JavaScript.
 ![](portfolio-2/project-ss/desktop-view.png)
 
 ## Portfolio-3 
-![](portfolio-3/project-ss/desktop-view.png)
+![](portfolio-3/project-ss/desktop-view.png)k
 
 ## Portfolio-2
 ![](/portfolio%20landing%20page%20with%20dark%20mode/project-ss/desktop-view.png)
