@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <!-- custom css file -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- header section  -->
+  <div class="header flex">
+    <div class="header-logo">
+      <img src="images/logo.svg" alt="">
+    </div>
+    <!-- mobile navigation icon  -->
+    <div class="mobile-header-icon">
+      <img src="images/icon-menu.svg" class="show" id="mobile-menu-icon" alt="">
+      <img src="images/icon-close-menu.svg" class="hidden" id="mobile-menu-close-icon" alt="">
+    </div>
+
+    <!-- header navigation  -->
+    <div class="header-nav flex" id="header-nav">
+      <ul class="header-nav-list flex">
+        <li>
+          <a href="#">Features</a>
+          <img src="images/icon-arrow-down.svg" class="sub-menu-icon" alt="">
+
+          <!-- sub menu  -->
+          <ul class="sub-menu flex hidden">
+            <li>
+              <img src="images/icon-todo.svg" alt="">
+              <span>Todo list</span>
+            </li>
+            <li>
+              <img src="images/icon-calendar.svg" alt="">
+              <span>Calendar</span>
+            </li>
+            <li>
+              <img src="images/icon-reminders.svg" alt="">
+              <span>Reminders</span>
+            </li>
+            <li>
+              <img src="images/icon-planning.svg" alt="">
+              <span>Planning</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Company</a>
+          <img src="images/icon-arrow-down.svg" class="sub-menu-icon" alt="">
+
+          <!-- sub menu  -->
+          <ul class="sub-menu flex hidden">
+            <li>History</li>
+            <li>Our Team</li>
+            <li>Blog</li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+      <!-- header button  -->
+      <div class="header-btn flex">
+        <button class="btn login-btn">Login</button>
+        <button class="btn register-btn">Register</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- hero section  -->
+  <div class="hero-section flex">
+    <div class="hero-content flex">
+      <div class="content-main flex">
+        <h1 class="content-header">
+          Make Remote Work
+        </h1>
+        <p class="content-body">
+          Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+        </p>
+        <button class="btn hero-btn">
+          Learn More
+        </button>
+      </div>
+
+      <!-- clients brand section  -->
+      <div class="content-client flex">
+        <img src="images/client-databiz.svg" class="content-client-img" alt="">
+        <img src="images/client-audiophile.svg" class="content-client-img" alt="">
+        <img src="images/client-meet.svg" class="content-client-img" alt="">
+        <img src="images/client-maker.svg" class="content-client-img" alt="">
+      </div>
+    </div>
+
+    <!-- hero main image  -->
+    <div class="hero-img"></div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
